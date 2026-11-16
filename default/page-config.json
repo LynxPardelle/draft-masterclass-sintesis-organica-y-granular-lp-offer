@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "domain": "masterclass-sintesis-organica-y-granular.music.lynxpardelle.com",
+  "pageId": "default",
+  "rootIds": [
+    "site-shell"
+  ],
+  "modalRootIds": [],
+  "seo": {
+    "title": "Síntesis orgánica y granular | Lynx Pardelle",
+    "description": "Usa una grabación como materia prima para diseñar una textura. Controla altura y dinámica, y explora cómo el tratamiento granular reconstruye la muestra en fragmentos pequeños.",
+    "canonical": "https://masterclass-sintesis-organica-y-granular.music.lynxpardelle.com/",
+    "robots": "index,follow",
+    "openGraph": {
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/images/lynx-offer-v1-masterclass-diseno.webp"
+    }
+  }
+}
