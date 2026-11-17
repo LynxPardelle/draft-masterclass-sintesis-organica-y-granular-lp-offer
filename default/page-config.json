@@ -7,12 +7,63 @@
   ],
   "modalRootIds": [],
   "seo": {
-    "title": "Síntesis orgánica y granular | Lynx Pardelle",
-    "description": "Usa una grabación como materia prima para diseñar una textura. Controla altura y dinámica, y explora cómo el tratamiento granular reconstruye la muestra en fragmentos pequeños.",
+    "title": "Masterclass de síntesis orgánica y granular | Lynx Pardelle",
+    "description": "Transforma una grabación en textura. Explora altura, dinámica, envolvente ADSR y procesamiento por granos en una masterclass de 3 a 4 horas.",
     "canonical": "https://masterclass-sintesis-organica-y-granular.music.lynxpardelle.com/",
     "robots": "index,follow",
     "openGraph": {
+      "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/masterclass-sintesis-organica-y-granular-r2-fb321c53af833a7d.webp",
+      "title": "Masterclass de síntesis orgánica y granular | Lynx Pardelle",
+      "description": "Transforma una grabación en textura. Explora altura, dinámica, envolvente ADSR y procesamiento por granos en una masterclass de 3 a 4 horas.",
+      "url": "https://masterclass-sintesis-organica-y-granular.music.lynxpardelle.com/",
+      "imageAlt": "Grabadora de campo y grabaciones para explorar texturas."
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Masterclass de síntesis orgánica y granular | Lynx Pardelle",
+      "description": "Transforma una grabación en textura. Explora altura, dinámica, envolvente ADSR y procesamiento por granos en una masterclass de 3 a 4 horas.",
       "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/masterclass-sintesis-organica-y-granular-r2-fb321c53af833a7d.webp"
     }
+  },
+  "structuredData": {
+    "entries": [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://masterclass-sintesis-organica-y-granular.music.lynxpardelle.com/#webpage",
+        "name": "Síntesis orgánica y granular",
+        "description": "Transforma una grabación en textura. Explora altura, dinámica, envolvente ADSR y procesamiento por granos en una masterclass de 3 a 4 horas.",
+        "url": "https://masterclass-sintesis-organica-y-granular.music.lynxpardelle.com/",
+        "inLanguage": "es",
+        "isPartOf": {
+          "@type": "CollectionPage",
+          "name": "Masterclasses",
+          "url": "https://music.lynxpardelle.com/formacion/masterclasses"
+        },
+        "mainEntity": {
+          "@id": "https://masterclass-sintesis-organica-y-granular.music.lynxpardelle.com/#contenido-de-la-oferta"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "@id": "https://masterclass-sintesis-organica-y-granular.music.lynxpardelle.com/#contenido-de-la-oferta",
+        "name": "Síntesis orgánica y granular",
+        "description": "Transforma una grabación en textura. Explora altura, dinámica, envolvente ADSR y procesamiento por granos en una masterclass de 3 a 4 horas.",
+        "url": "https://masterclass-sintesis-organica-y-granular.music.lynxpardelle.com/",
+        "image": "https://assets.zoolandingpage.com.mx/music.lynxpardelle.com/shared/hero-images/masterclass-sintesis-organica-y-granular-r2-fb321c53af833a7d.webp",
+        "provider": {
+          "@id": "https://lynxpardelle.com/#person"
+        },
+        "inLanguage": "es",
+        "offers": {
+          "@type": "Offer",
+          "name": "Una inscripción",
+          "url": "https://masterclass-sintesis-organica-y-granular.music.lynxpardelle.com/#precios",
+          "price": 1750,
+          "priceCurrency": "MXN"
+        }
+      }
+    ]
   }
 }
