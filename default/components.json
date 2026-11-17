@@ -522,7 +522,7 @@
           "topic-heading-0"
         ],
         "styles": {
-          "paddingBlock": "15px",
+          "paddingBlock": "clamp(9px, 2.1vw, 15px)",
           "borderTop": "1px solid #9a462c"
         }
       }
@@ -551,7 +551,7 @@
           "topic-heading-1"
         ],
         "styles": {
-          "paddingBlock": "15px",
+          "paddingBlock": "clamp(9px, 2.1vw, 15px)",
           "borderTop": "1px solid #9a462c"
         }
       }
@@ -580,7 +580,7 @@
           "topic-heading-2"
         ],
         "styles": {
-          "paddingBlock": "15px",
+          "paddingBlock": "clamp(9px, 2.1vw, 15px)",
           "borderTop": "1px solid #9a462c"
         }
       }
@@ -609,7 +609,7 @@
           "topic-heading-3"
         ],
         "styles": {
-          "paddingBlock": "15px",
+          "paddingBlock": "clamp(9px, 2.1vw, 15px)",
           "borderTop": "1px solid #9a462c"
         }
       }
@@ -638,7 +638,7 @@
           "topic-heading-4"
         ],
         "styles": {
-          "paddingBlock": "15px",
+          "paddingBlock": "clamp(9px, 2.1vw, 15px)",
           "borderTop": "1px solid #9a462c"
         }
       }
@@ -648,7 +648,7 @@
       "type": "text",
       "config": {
         "id": "outcome-title",
-        "text": "Qué vas a trabajar",
+        "text": "¿Cómo conviertes una grabación en una textura granular?",
         "tag": "h2",
         "styles": {
           "margin": "0",
@@ -666,7 +666,7 @@
       "type": "text",
       "config": {
         "id": "outcome-copy",
-        "text": "Transformar una muestra en una textura y reconocer qué rasgos de la grabación siguen presentes.",
+        "text": "Controlas la altura y la envolvente de la fuente y trabajas con fragmentos pequeños de la muestra. Escuchas qué rasgos de la grabación se conservan al cambiar los granos.",
         "tag": "p",
         "styles": {
           "margin": "0",
@@ -724,10 +724,10 @@
         ],
         "styles": {
           "display": "grid",
-          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, 325px), 1fr))",
-          "gap": "clamp(17px, 4.5vw, 58px)",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(min(100%, max(168px, 30%)), 1fr))",
+          "columnGap": "clamp(12px, 2.5vw, 28px)",
           "rowGap": "0",
-          "columnGap": "27px"
+          "alignItems": "start"
         }
       }
     },
@@ -741,7 +741,8 @@
           "topic-grid"
         ],
         "styles": {
-          "minWidth": "0"
+          "minWidth": "0",
+          "marginBlockEnd": "clamp(18px, 3vw, 32px)"
         }
       }
     },
@@ -825,7 +826,8 @@
           "width": "min(100%, 1200px)",
           "marginInline": "auto",
           "paddingInline": "clamp(18px, 5vw, 66px)",
-          "paddingBlock": "clamp(40px, 7vw, 86px)"
+          "paddingBlock": "clamp(40px, 7vw, 86px)",
+          "display": "block"
         }
       }
     },
@@ -1164,7 +1166,8 @@
         "tag": "section",
         "components": [
           "offer-contact",
-          "return-link"
+          "return-link",
+          "portfolio-reference"
         ],
         "styles": {
           "boxSizing": "border-box",
@@ -1420,6 +1423,22 @@
           "fontFamily": "\"Instrument Sans\", system-ui, sans-serif",
           "lineHeight": "1.6",
           "minHeight": "100vh"
+        }
+      }
+    },
+    {
+      "id": "portfolio-reference",
+      "type": "link",
+      "config": {
+        "text": "Ver el trabajo musical de Lynx Pardelle",
+        "href": "https://lynxpardelle.com/music",
+        "styles": {
+          "color": "#f6c17d",
+          "textUnderlineOffset": "4px",
+          "minHeight": "44px",
+          "display": "inline-flex",
+          "alignItems": "center",
+          "fontWeight": "640"
         }
       }
     }
